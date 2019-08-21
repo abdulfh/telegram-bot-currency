@@ -6,10 +6,10 @@ const session = require("telegraf/session");
 const WizardScene = require("telegraf/scenes/wizard");
 
 // Init
-const token = '824421347:AAGkG9HL_c-TbxlWOIQ4gGapEnXkwyQ1hyw';
+const token = 'TELEGRAM_TOKEN';
 const bot = new Telegraf(token);
 
-// Includes Extentions
+// Includes
 const Converter = require("./api/currency_converter");
 
 bot.start((ctx) => 
